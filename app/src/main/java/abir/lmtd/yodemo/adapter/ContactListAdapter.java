@@ -22,6 +22,10 @@ public class ContactListAdapter extends BaseAdapter {
     Context context;
     List<ContactDetails> contactDetailsList;
 
+    /**
+     * View Holder Class
+     * To Bind the components
+     */
     private class ContactViewHolder {
         ImageView ivContactPhoto;
         TextView tvContactId, tvContactName;
